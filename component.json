@@ -1,0 +1,9 @@
+{
+  "name": "foundation",
+  "repo": "onirame/foundation",
+  "description": "Zurb Foundation CSS framework component",
+  "scripts": [],
+  "styles": [
+    "style.css"
+  ]
+}
