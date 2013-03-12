@@ -11,6 +11,6 @@
     "foundation.css"
   ],
   "scripts": [
-    "foundation.js"
+    "index.js"
   ]
 }
