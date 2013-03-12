@@ -4,6 +4,7 @@
   "description": "Zurb Foundation CSS framework component",
   "scripts": [],
   "styles": [
-    "style.css"
+    "normalize.css",
+    "foundation.css"
   ]
 }
