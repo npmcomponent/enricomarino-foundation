@@ -1616,5 +1616,5 @@ function (e, t, n, r) {
 /**
  * Expose `Foundation`
  */
-
+console.log(Foundation);
 module.exports = Foundation;
