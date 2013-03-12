@@ -2,6 +2,7 @@
   "name": "foundation",
   "repo": "enricomarino/foundation",
   "description": "Zurb Foundation CSS framework component",
+  "version": "0.0.5",
   "dependencies": {
     "component/jquery": "*"
   },
