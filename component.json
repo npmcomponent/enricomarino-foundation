@@ -6,5 +6,8 @@
   "styles": [
     "normalize.css",
     "foundation.css"
+  ],
+  "scripts": [
+    "foundation.js"
   ]
 }
