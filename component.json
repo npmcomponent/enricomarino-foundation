@@ -2,7 +2,9 @@
   "name": "foundation",
   "repo": "onirame/foundation",
   "description": "Zurb Foundation CSS framework component",
-  "scripts": [],
+  "dependencies": {
+    "component/jquery": "*"
+  },
   "styles": [
     "normalize.css",
     "foundation.css"
