@@ -1612,3 +1612,9 @@ function (e, t, n, r) {
         }
     }
 }(Foundation.zj, this, this.document);
+
+/**
+ * Expose `Foundation`
+ */
+
+module.exports = Foundation;
