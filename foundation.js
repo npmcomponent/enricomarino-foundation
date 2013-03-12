@@ -169,7 +169,7 @@ function (e, t, n) {
             return Foundation.init.apply(Foundation, [this].concat(e)), this
         })
     }
-}(this, this.document),
+}(window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.dropdown = {
@@ -223,7 +223,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.dropdown"), e("html, body").off(".fndtn.dropdown"), e(t).off(".fndtn.dropdown"), e("[data-dropdown-content]").off(".fndtn.dropdown"), this.settings.init = !1
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.alerts = {
@@ -248,7 +248,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.alerts")
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.clearing = {
@@ -460,7 +460,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.clearing"), e(t).off(".fndtn.clearing"), this.remove_data(), this.settings.init = !1
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n) {
     function f(e) {
         var t = {}, r = /^jQuery\d+$/;
@@ -541,7 +541,7 @@ function (e, t, n) {
             this.value = ""
         })
     }))
-}(this, document, Foundation.zj),
+}(window, document, Foundation.zj),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.forms = {
@@ -680,7 +680,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.forms")
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n) {
     function i(e) {
         return e
@@ -933,7 +933,7 @@ function (e, t, n, r) {
             e(this.scope).off(".joyride"), e(t).off(".joyride"), e(".joyride-close-tip, .joyride-next-tip, .joyride-modal-bg").off(".joyride"), e(".joyride-tip-guide, .joyride-modal-bg").remove(), clearTimeout(this.settings.automate), this.settings = {}
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.magellan = {
@@ -993,7 +993,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.magellan")
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs = Foundation.libs || {}, Foundation.libs.orbit = {
@@ -1180,7 +1180,7 @@ function (e, t, n, r) {
             })
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.reveal = {
@@ -1324,7 +1324,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.reveal")
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.section = {
@@ -1424,7 +1424,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.section"), e(t).off(".fndtn.section"), this.settings.init = !1
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.tooltips = {
@@ -1509,7 +1509,7 @@ function (e, t, n, r) {
             }).remove()
         }
     }
-}(Foundation.zj, this, this.document),
+}(Foundation.zj, window, document),
 function (e, t, n, r) {
     "use strict";
     Foundation.libs.topbar = {
@@ -1611,7 +1611,7 @@ function (e, t, n, r) {
             e(this.scope).off(".fndtn.topbar"), e(t).off(".fndtn.topbar")
         }
     }
-}(Foundation.zj, this, this.document);
+}(Foundation.zj, window, document);
 
 /**
  * Expose `Foundation`
