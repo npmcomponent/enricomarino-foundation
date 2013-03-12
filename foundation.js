@@ -6,7 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 /*jslint unparam: true, browser: true, indent: 2 */
-var $ = require('jquery');
+var $ = jQuery = require('jquery');
 
 (function () {
     Array.prototype.filter || (Array.prototype.filter = function (e) {
