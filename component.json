@@ -1,6 +1,6 @@
 {
   "name": "foundation",
-  "repo": "onirame/foundation",
+  "repo": "enricomarino/foundation",
   "description": "Zurb Foundation CSS framework component",
   "dependencies": {
     "component/jquery": "*"
