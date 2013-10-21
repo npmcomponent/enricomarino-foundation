@@ -4,7 +4,8 @@
   "description": "Zurb Foundation CSS framework component",
   "version": "0.0.5",
   "dependencies": {
-    "component/jquery": "*"
+    "component/jquery": "*",
+    "componentizr/modernizr": "*"
   },
   "styles": [
     "normalize.css",

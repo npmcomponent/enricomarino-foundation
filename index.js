@@ -7,6 +7,7 @@
  */
 /*jslint unparam: true, browser: true, indent: 2 */
 var $ = jQuery = require('jquery');
+var Modernizr = require('modernizr');
 
 (function () {
     Array.prototype.filter || (Array.prototype.filter = function (e) {
