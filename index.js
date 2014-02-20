@@ -6,8 +6,8 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 /*jslint unparam: true, browser: true, indent: 2 */
-var $ = jQuery = require('jquery');
-var Modernizr = require('modernizr');
+var $ = jQuery = require('component-jquery');
+var Modernizr = require('componentizr-modernizr');
 
 (function () {
     Array.prototype.filter || (Array.prototype.filter = function (e) {

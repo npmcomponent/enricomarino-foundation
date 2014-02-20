@@ -1,0 +1,13 @@
+{
+  "name": "enricomarino-foundation",
+  "description": "Zurb Foundation CSS framework component",
+  "version": "0.0.5",
+  "styles": [
+    "normalize.css",
+    "foundation.css"
+  ],
+  "dependencies": {
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "componentizr-modernizr": "git://github.com/npmcomponent/componentizr-modernizr.git"
+  }
+}
